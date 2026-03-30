@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+*{ /* Reset CSS */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+
+}
+
+html, body{ /* Define o tamanho da tela para ocupar toda a viewport */
+    height: 100vh; /* 100% da altura da viewport */
+    width: 100vw; /* 100% da largura da viewport */
+    background-color: black;
+}
+
+body{
+    background: url(../imagens/fundo-madeira.jpg) no-repeat top center; /* Define a imagem de fundo e centraliza */
+    background-size: cover; /* Faz a imagem de fundo cobrir toda a área disponível */
+    background-attachment: fixed; /* Faz a imagem de fundo ficar fixa durante a rolagem */
+}
+
+
+main{ /* Centraliza o conteúdo dentro da tela */
+    position: relative; /* Permite posicionar os elementos filhos de forma absoluta */
+    height: 100vh;
+}
+
+section#telefone{ /* Estiliza a seção do telefone */
+    position: absolute; /* Permite posicionar o elemento em relação ao pai (main) */
+    top: 50%; /* Centraliza verticalmente */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta a posição para centralizar perfeitamente */
+
+    height: 627px;
+    width: 311px;
+    background: url(../imagens/frame-iphone.png) no-repeat center center; /* Define a imagem de fundo e centraliza */
+}
+
+iframe#tela{ /* Estiliza o iframe que representa a tela do telefone */
+    position: absolute; /* Permite posicionar o elemento em relação ao pai (section#telefone) */
+    top: 50%; /* Centraliza verticalmente */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta a posição para centralizar perfeitamente */
+
+    height: 500px;
+    width: 280px;
+    border: none; /* Remove a borda do iframe */
+}
