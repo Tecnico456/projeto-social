@@ -47,3 +47,27 @@ iframe#tela{ /* Estiliza o iframe que representa a tela do telefone */
     width: 280px;
     border: none; /* Remove a borda do iframe */
 }
+
+section#redes-sociais{ /* Estiliza a seção das redes sociais */
+    text-align: right; /* Alinha o conteúdo à direita */
+}
+
+section#redes-sociais img{ /* Estiliza as imagens das redes sociais */
+    width: 50px; /* Define a largura das imagens */
+    height: 50px; /* Define a altura das imagens */
+    margin: 10px; /* Adiciona uma margem entre as imagens */
+    border-radius: 50%; /* Deixa as imagens circulares */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra para dar destaque */
+    transition: transform 0.3s ease; /* Adiciona uma transição suave para o efeito de hover */
+    box-sizing: border-box; /* Garante que o tamanho da imagem inclua a borda e a sombra */
+} 
+
+section#redes-sociais img:hover{ /* Estiliza o efeito de hover nas imagens das redes sociais */
+    transform: scale(1.2); /* Aumenta o tamanho da imagem ao passar o mouse */
+    border: 2px solid rgba(255, 255, 255, 0.603); /* Adiciona uma borda branca ao passar o mouse */
+}
+
+section#redes-sociais img:active { /* Estiliza o efeito de clique nas imagens das redes sociais */
+    transform: scale(95%); /* Reduz ligeiramente o tamanho da imagem ao clicar */
+    
+}
