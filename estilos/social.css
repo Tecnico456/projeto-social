@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    ::-webkit-scrollbar{
+        display: none; /* Esconde a barra de rolagem no Chrome, Safari e Opera */
+    }
+
+    img{
+        width: 100vw; /* Define a largura da imagem para ocupar toda a largura da janela de visualização */
+       
+    }
+
+    a:hover{
+        background-color: red; /* Altera a cor de fundo do link quando o mouse estiver sobre ele */
+    }
+
+    a{
+        display: block; /* Faz com que o link seja exibido como um bloco, ocupando toda a largura disponível */
+        background-color: darkred; /* Define a cor de fundo do link */
+        color: white; /* Define a cor do texto do link */
+        padding: 20px; /* Adiciona um preenchimento interno ao link para aumentar a área clicável */
+        text-align: center; /* Centraliza o texto dentro do link */
+        font-weight: bolder; /* Deixa o texto em negrito */
+        text-decoration: none; /* Remove a decoração padrão do link (sublinhado) */
+
+    }

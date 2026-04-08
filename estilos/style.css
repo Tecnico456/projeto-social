@@ -44,7 +44,7 @@ iframe#tela{ /* Estiliza o iframe que representa a tela do telefone */
     transform: translate(-50%, -50%); /* Ajusta a posição para centralizar perfeitamente */
 
     height: 500px;
-    width: 280px;
+    width: 267px;
     border: none; /* Remove a borda do iframe */
 }
 
